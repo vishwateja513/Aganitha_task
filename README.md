@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Aganitha_task
 
 This repository was cloned from https://github.com/vishwateja513/Aganitha_task.git and was empty at the time of cloning.
@@ -43,28 +44,62 @@ npm test
 ```
 
 ## Project structure (recommended)
+# Aganitha_task — Book Finder (merged)
 
-- `src/` - source files
-- `public/` - static assets
-- `package.json` - npm manifest
+This repository now contains a small React application (Book Finder) that was added to the repo. The app was bootstrapped with Create React App and provides a simple UI to search the Open Library API for books.
 
-## Contributing
+This README combines the original repository template and the Create React App README, and contains quick start instructions below.
 
-1. Create a feature branch: `git checkout -b feat/short-description`
-2. Commit changes with clear messages
-3. Open a pull request to the `main` branch
+## Quick start
 
-## Next steps (you or I can do these)
+Prerequisites
 
-1. Add the project files (React app, Node service, etc.) into the repo.
-2. Update this README with a real project description and usage examples.
-3. Add a license file (e.g., `LICENSE`) and a `.gitignore`.
+- Node.js 16+ (or latest LTS)
+- npm (bundled with Node) or Yarn
+
+Install dependencies
+
+```powershell
+npm install
+```
+
+Run the development server
+
+```powershell
+npm start
+```
+
+Open http://localhost:3000 in your browser. The app will reload on edits.
+
+Run tests
+
+```powershell
+npm test
+```
+
+Build for production
+
+```powershell
+npm run build
+```
+
+## Project overview
+
+- The app UI files live in `src/`.
+- The public folder with index file is in `public/`.
+- The app was created using Create React App and follows the standard structure.
+
+## Notes about this merge
+
+- The repository previously had a template README; this file was merged with the CRA README and updated to describe the Book Finder app and how to run it.
+- If you want the README split into finer sections or want additional usage examples, I can update it.
+
+## Next steps you may want
+
+1. Add a `LICENSE` file (MIT/Apache/etc.) and update `package.json` author info.
+2. Remove any leftover unused files or tailor the README further.
+3. Push to the remote (already in progress) — see below for the rebase continue step.
 
 ---
 
-If you'd like, I can:
-
-- initialize a React app inside this repo (create-react-app or Vite),
-- or copy the current `test_hextgen` project files into this repo and update the README to match that project.
-
-Tell me which option you prefer and I'll proceed.
+Now finishing the rebase and pushing the branch.
