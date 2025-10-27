@@ -93,13 +93,10 @@ npm run build
 
 - The repository previously had a template README; this file was merged with the CRA README and updated to describe the Book Finder app and how to run it.
 - If you want the README split into finer sections or want additional usage examples, I can update it.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/557999cb-fb99-4b9e-9f39-d917d91ab946" />
 
-## Next steps you may want
 
-1. Add a `LICENSE` file (MIT/Apache/etc.) and update `package.json` author info.
-2. Remove any leftover unused files or tailor the README further.
-3. Push to the remote (already in progress) — see below for the rebase continue step.
+Search Results 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fe688f4f-14f4-4636-a88c-315d4231fc7a" />
 
----
 
-Now finishing the rebase and pushing the branch.
