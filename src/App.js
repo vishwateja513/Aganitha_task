@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+// import axios from "axios";
+import "./App.css";
+import BookFinder from "./components/BookFinder";
+// let doctors = [];
+
+// fetch before component runs (top-level await)
+// await axios
+//   .get(
+//     "https://5c7n71qaqk.execute-api.ap-south-1.amazonaws.com/test/dateBasedAPI?date=2025-06-09"
+//   )
+//   .then((response) => {
+//     console.log(response.data);
+//     doctors = response.data.data.doctors;
+//   })
+//   .catch((error) => {
+//     console.error("Error fetching data:", error);
+//   });
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <BookFinder />;
 }
 
 export default App;

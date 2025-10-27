@@ -36,3 +36,102 @@
     transform: rotate(360deg);
   }
 }
+
+/* BookFinder custom styles */
+.bf-root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem;
+  box-sizing: border-box;
+  /* soft gradient fallback (keeps same look if Tailwind classes aren't present) */
+  background: linear-gradient(90deg, #3b82f6 0%, #6366f1 50%, #8b5cf6 100%);
+}
+
+.bf-card {
+  background: #ffffff;
+  box-shadow: 0 10px 30px rgba(2,6,23,0.12);
+  border-radius: 18px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 720px;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.bf-input {
+  width: 100%;
+  padding: 0.75rem 0.9rem;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.bf-controls {
+  display: flex;
+  gap: 0.6rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.bf-input-number {
+  width: 6.25rem;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.bf-button {
+  background: #4f46e5;
+  color: #fff;
+  border: none;
+  padding: 0.55rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 6px 16px rgba(79,70,229,0.2);
+}
+
+.bf-button:hover { opacity: 0.95; }
+
+.bf-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.25rem;
+  width: 100%;
+  max-width: 1100px;
+  margin-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.bf-item {
+  background: #ffffff;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(2,6,23,0.06);
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+
+.bf-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 46px rgba(2,6,23,0.12);
+}
+
+.bf-item img { width: 100%; height: 240px; object-fit: cover; border-radius: 8px; margin-bottom: 0.5rem; }
+
+.bf-item h3 { color: #4f46e5; margin: 0.25rem 0; }
+
+@media (max-width: 640px) {
+  .bf-card { padding: 1.25rem; }
+  .bf-item img { height: 200px; }
+}
