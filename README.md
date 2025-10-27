@@ -1,19 +1,3 @@
-<<<<<<< HEAD
-# Aganitha_task
-
-This repository was cloned from https://github.com/vishwateja513/Aganitha_task.git and was empty at the time of cloning.
-
-This README provides a focused template and next steps to initialize the project.
-
-## Status
-
-- Repository state: empty (no source files) as of 2025-10-27.
-
-## Suggested project description
-
-Replace this section with a one-sentence summary of the project, for example:
-
-"Aganitha_task is a small React web application that helps users search and browse books using the Open Library API." 
 
 ## Getting started
 
